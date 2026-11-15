@@ -1,0 +1,35 @@
+# 公開しないファイル（手元には残す）
+
+# 診断用の補助ファイル（設定には不要）
+/src/Diagnose.gs
+
+# 講座の支給素材（転載しない）
+/素材/
+
+# 作業時間記録（手元の資料）
+/docs/作業時間記録.csv
+
+# 振り返りの下書き（手元の資料）
+/docs/07_振り返り.md
+
+# 支給素材が写っている元画像（公開版は *-public.png）
+/docs/images/setup-05-style-sample.png
+/docs/images/usage-01-sheet.png
+
+# 認証情報（APIキーやパスワードはスクリプトプロパティだけに保存する）
+.env
+.env.*
+*.key
+*.pem
+.clasprc.json
+.clasp.json
+credentials*.json
+client_secret*.json
+token*.json
+*secret*
+*credential*
+
+# OSが作るファイル
+desktop.ini
+Thumbs.db
+.DS_Store
